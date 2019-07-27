@@ -1,5 +1,5 @@
 displayName = Gotta Go Fast
 author = doombubbles
-version = 1.0
+version = 0.1
 homepage=https://github.com/doombubbles/GottaGoFast
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
