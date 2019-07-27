@@ -1,0 +1,10 @@
+A simple mod that implements a standardized Magic Speed and Ranged Speed like there's Melee Speed.
+(Also a simple all attack speed value)
+
+View the homepage to see how to use these values for your mod
+
+Configurable vanilla changes to add Magic Speed and Ranged Speed content
+- The (Wild/Rash/Intrepid/Violent) Prefix affecting all attack speed
+- The (Sun/Moon/Celestial) (Stone/Shell) affecting all attack speed
+- The Werewolf buff affecting all attack speed
+- Shadow Armor affecting all attack speed
