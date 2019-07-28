@@ -8,6 +8,11 @@ Configurable vanilla changes to add Magic Speed and Ranged Speed content
 - The (Sun/Moon/Celestial) (Stone/Shell) affecting all attack speed
 - The Werewolf buff affecting all attack speed
 - Shadow Armor affecting all attack speed
+- Magic Speed affecting enemy's immune time (for piercing weapons)
 
 Custom Items
 - The Second Amendment - 17.76% Ranged Speed - Crafted at a Lihzahrd Altar with 10 Silk, a Feather, 1 Black Ink and 1776 Musket Balls
+
+v0.1.2 Make Laser Machine Gun be affected by magic/attack speed
+v0.1.1 Add Icon
+v0.1 Release
