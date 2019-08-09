@@ -25,6 +25,12 @@ namespace GottaGoFast
                 player.meleeSpeed -= .051f;
                 player.GetModPlayer<GottaGoFastPlayer>().attackSpeed += .051f;
             }
+            
+            if (player.HasBuff(BuffID.WellFed) && GottaGoFast.GottaGoFastConfig.WellFed)
+            {
+                player.meleeSpeed -= .05f;
+                player.GetModPlayer<GottaGoFastPlayer>().attackSpeed += .05f;
+            }
         }
 
         public override float UseTimeMultiplier(Item item)

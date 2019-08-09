@@ -24,6 +24,10 @@ namespace GottaGoFast
         public bool ShadowArmor{ get; set; }
         
         [DefaultValue(true)]
+        [Label("Well Fed Buff Affects All Attack Speed")]
+        public bool WellFed{ get; set; }
+        
+        [DefaultValue(true)]
         [Label("Magic Speed reduces enemy immune time (for piercing weapons)")]
         public bool MagicImmune{ get; set; }
 

@@ -7,14 +7,16 @@ namespace GottaGoFast
 	public class GottaGoFast : Mod
 	{
 		internal static GottaGoFastConfig GottaGoFastConfig;
+		internal static GottaGoFast Instance;
 		
 		public GottaGoFast()
 		{
-			
+			Instance = this;
 		}
 		
 		public override void Unload()
 		{
+			Instance = null;
 			GottaGoFastConfig = null;
 		}
 
