@@ -74,11 +74,11 @@ namespace GottaGoFast
             {
                 GottaGoFastPlayer modPlayer = Main.player[proj.owner].GetModPlayer<GottaGoFastPlayer>();
                 float factor = modPlayer.magicSpeed * modPlayer.attackSpeed;
-                if (proj.usesLocalNPCImmunity)
+                if (proj.usesLocalNPCImmunity && proj.localNPCImmunity[target.whoAmI] != -1)
                 {
                     proj.localNPCImmunity[target.whoAmI] = (int)(proj.localNPCImmunity[target.whoAmI] / factor);
                 }
-                else if (proj.usesIDStaticNPCImmunity)
+                else if (proj.usesIDStaticNPCImmunity && Projectile.perIDStaticNPCImmunity[proj.type][target.whoAmI] != -1)
                 {
                     Projectile.perIDStaticNPCImmunity[proj.type][target.whoAmI] = (uint)(Projectile.perIDStaticNPCImmunity[proj.type][target.whoAmI] / factor);
                 }

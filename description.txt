@@ -14,6 +14,7 @@ Configurable vanilla changes to add Magic Speed and Ranged Speed content
 Custom Items
 - The Second Amendment - 17.76% Ranged Speed - Crafted at a Lihzahrd Altar with 10 Silk, a Feather, 1 Black Ink and 1776 Musket Balls
 
+v0.1.4 Make Vortex Beater be affected by ranged/attack speed
 v0.1.3 Affect Well Fed Buff 
 v0.1.2 Make Laser Machine Gun be affected by magic/attack speed
 v0.1.1 Add Icon
