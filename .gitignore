@@ -1,7 +1,7 @@
 .idea/
 *.user
 *.cache
-GottaGoFast.sln
+AttackSpeed.sln
 .vs/config/applicationhost.config
 *.suo
 *.dll

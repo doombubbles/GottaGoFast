@@ -1,9 +1,6 @@
-A simple mod that implements a standardized Magic Speed and Ranged Speed like there's Melee Speed.
-(Also a simple all attack speed value)
+A simple mod that allows you to let any/all vanilla Melee Speed bonuses affect attack speed instead.
 
-View the homepage to see how to use these values for your mod
-
-Configurable vanilla changes to add Magic Speed and Ranged Speed content
+Configurable vanilla changes
 - The (Wild/Rash/Intrepid/Violent) Prefix affecting all attack speed
 - The (Sun/Moon/Celestial) (Stone/Shell) affecting all attack speed
 - The Werewolf buff affecting all attack speed
@@ -11,7 +8,7 @@ Configurable vanilla changes to add Magic Speed and Ranged Speed content
 - Shadow Armor affecting all attack speed
 - Magic Speed affecting enemy's immune time (for piercing weapons)
 
-Custom Items
+Example Items
 - The Second Amendment - 17.76% Ranged Speed - Crafted at a Lihzahrd Altar with 10 Silk, a Feather, 1 Black Ink and 1776 Musket Balls
 
 v0.1.4 Make Vortex Beater be affected by ranged/attack speed

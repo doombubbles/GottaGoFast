@@ -3,9 +3,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace GottaGoFast.Items
+namespace AttackSpeedMod.Items
 {
-    class TheSecondAmendment : ModItem
+    internal class TheSecondAmendment : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -15,28 +15,27 @@ namespace GottaGoFast.Items
 
         public override void SetDefaults()
         {
-            item.value = 100000;
-            item.width = 30;
-            item.height = 30;
-            item.rare = 7;
-            item.accessory = true;
+            Item.value = 100000;
+            Item.width = 30;
+            Item.height = 30;
+            Item.rare = ItemRarityID.Lime;
+            Item.accessory = true;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetModPlayer<GottaGoFastPlayer>().rangedSpeed += .1776f;
+            player.GetAttackSpeed(DamageClass.Ranged) += .1776f;
         }
 
         public override void AddRecipes()
         {
-            ModRecipe recipe = new ModRecipe(mod);
+            var recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.Silk, 10);
             recipe.AddIngredient(ItemID.Feather);
             recipe.AddIngredient(ItemID.BlackInk);
             recipe.AddIngredient(ItemID.MusketBall, 1776);
             recipe.AddTile(TileID.LihzahrdAltar);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
+            recipe.Register();
         }
     }
 }

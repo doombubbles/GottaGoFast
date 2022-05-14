@@ -1,5 +1,5 @@
-displayName = Gotta Go Fast
+displayName = Attack Speed Mod
 author = doombubbles
-version = 0.1.4
-homepage=https://github.com/doombubbles/GottaGoFast
+version = 0.1.5
+homepage=https://github.com/doombubbles/AttackSpeed
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
